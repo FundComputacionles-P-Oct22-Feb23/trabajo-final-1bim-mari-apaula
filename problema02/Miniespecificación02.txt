@@ -1,0 +1,49 @@
+INICIO
+
+traje, i[0 - n]
+precio_unitario, d[0 - n]
+subtotal, d[0 - n]
+total, d[0 - n]
+descuento, i[0 - n]
+
+<<"Ingrese la cantidad de trajes adquiridos"
+>>traje
+<<"Ingrese el precio unitario del traje"
+>>precio_unitario
+
+Si traje es == 1 entonces 
+          descuento <-- 20
+          subtotal <-- precio_unitario 
+          total <-- (precio_unitario * descuento) / 100
+De lo contrario
+          Si traje == 2 entonces
+                    descuento <-- 25
+                    subtotal <-- precio_unitario *traje
+                    total <-- (precio_unitario * descuento) / 100
+          De lo contrario
+                     Si traje == 3 entonces
+                              descuento <-- 40
+                              subtotal <-- precio_unitario *traje
+                              total <-- (precio_unitario * descuento) / 100
+                    De lo contrario
+                              Si traje > 3 entonces
+                                       descuento <-- 50
+                                        subtotal <-- precio_unitario *traje
+                                        total <-- (precio_unitario * descuento) / 100
+                              FinSi
+                     FinSi
+             Fin Si
+FinSi
+
+<<"-------------------------------------------------------------------------------------------------------"
+<<"Trajes comprados:  " + traje + "\n" + "El precio unitario es de:  " + precio_unitario + "\n" + "Subtotal:  " + subtotal + "\n" + "El descuento es de:  " + descuento + "\n" + "Total:  " + total + "\n"
+
+FIN
+
+
+
+
+
+
+
+FIN

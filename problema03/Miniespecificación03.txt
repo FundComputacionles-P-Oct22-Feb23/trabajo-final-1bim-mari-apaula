@@ -1,0 +1,50 @@
+1. Inicio
+2. 
+3. nombre_empleado, x(50)[{a-z},{A-Z},{BS}]
+4. horas_trabajadas, i[0-n]
+5. tipo_empleado, i[0-n]
+6. cuota, d[0-n]
+7. sueldo_pagar, d[0-n]
+8.
+9.      Escribe "Ingrese el nombre del empleado"
+10.    Lee nombre_empleado
+11.    Escribe "Ingrese el tipo de empleado"
+12.    Lee tipo_empleado
+13.    Escribe "Ingrese el numero de horas trabajadas"
+14.    Lee horas_trabajadas
+15.
+16. Segun tipo  Hacer
+17.              Caso tipo == 1: 
+18.                     sueldo_pagar <-- horas_trabajadas * 1.5
+19.                     << "El sueldo a pagar es de : " + sueldo a pagar
+20.                Caso tipo == 2: 
+21.                     sueldo_pagar <-- horas_trabajadas * 2
+22.                     << "El sueldo a pagar es de : " + sueldo a pagar
+23.                Caso tipo == 3: 
+24.                     sueldo_pagar <-- horas_trabajadas * 2.5
+25.                     << "El sueldo a pagar es de : " + sueldo a pagar
+26.             Caso tipo == 4: 
+27.                     sueldo_pagar <-- horas_trabajadas * 3
+28.                     << "El sueldo a pagar es de : " + sueldo a pagar
+29.
+30. FinSegun
+31.
+32. Fin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

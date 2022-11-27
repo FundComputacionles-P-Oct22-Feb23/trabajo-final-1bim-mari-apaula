@@ -1,0 +1,123 @@
+INICIO
+
+numero1, i[0-n]
+numero2, i[0-n]
+numero3, i[0-n]
+numero_mayor,i[0-n]
+
+<< "Ingrese un numero"
+>>numero1
+<< "Ingrese un numero"
+>>numero2
+<< "Ingrese un numero"
+>>numero3
+
+Si numero1 ==  numero2 entonces 
+              <<"Error. Intende de nuevo"
+              <<"Ingrese un número"
+              >> numero1
+De lo contrario 
+             Si numero2 ==  numero3 entonces 
+                         <<"Error. Intende de nuevo"
+                         <<"Ingrese un número"
+                         >> numero2
+             De lo contrario
+                         Si numero1 ==  numero3 entonces 
+                                   <<"Error. Intende de nuevo"
+                                   <<"Ingrese un número"
+                                   >> numero3 
+                         FinSi
+              FinSi
+FinSi
+
+Si numero1 >  numero2 entonces 
+              numero_mayor <-- numero1
+De lo contrario 
+               numero_mayor <-- numero2
+FinSi
+Si numero_mayor > numero3 entonces 
+      numero_mayor = numero_mayor
+              
+De lo contrario 
+    numero_mayor <-- numero3
+FinSi
+
+<< " El numero mayor es " + numero_mayor
+
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

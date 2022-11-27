@@ -1,0 +1,24 @@
+1.Inicio
+2.numero, i[0-n] <-- 0
+3.auxiliar,i[0-n] <-- 0
+4.suma, i[0-n] <-- 0
+5.Escribir "Ingrese un número par"
+6.Leer numero
+7.auxiliar <-- numero
+8.Si numero < 2 || numero % 2 != 0 entonces
+9.     Escribir "El número debe ser mayor o igual a 2 y par"
+10.De lo contrario
+11.       Mientras numero >= 2 entonces
+12.            Escribir suma + = numero
+13.            Escribir numero - = 2
+14.       FinMientras
+15.FinSi
+16.Escribir mensaje
+17.Fin 
+
+
+
+
+
+
+
