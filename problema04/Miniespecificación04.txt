@@ -35,9 +35,9 @@ Si numero1 >  numero2 entonces
 De lo contrario 
                numero_mayor <-- numero2
 FinSi
+
 Si numero_mayor > numero3 entonces 
-      numero_mayor = numero_mayor
-              
+      numero_mayor = numero_mayor              
 De lo contrario 
     numero_mayor <-- numero3
 FinSi
