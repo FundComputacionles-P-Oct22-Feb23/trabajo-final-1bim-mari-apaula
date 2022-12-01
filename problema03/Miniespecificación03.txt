@@ -17,13 +17,13 @@
 17.              Caso tipo == 1: 
 18.                     sueldo_pagar <-- horas_trabajadas * 1.5
 19.                     << "El sueldo a pagar es de : " + sueldo a pagar
-20.                Caso tipo == 2: 
+20.              Caso tipo == 2: 
 21.                     sueldo_pagar <-- horas_trabajadas * 2
 22.                     << "El sueldo a pagar es de : " + sueldo a pagar
-23.                Caso tipo == 3: 
+23.              Caso tipo == 3: 
 24.                     sueldo_pagar <-- horas_trabajadas * 2.5
 25.                     << "El sueldo a pagar es de : " + sueldo a pagar
-26.             Caso tipo == 4: 
+26.              Caso tipo == 4: 
 27.                     sueldo_pagar <-- horas_trabajadas * 3
 28.                     << "El sueldo a pagar es de : " + sueldo a pagar
 29.

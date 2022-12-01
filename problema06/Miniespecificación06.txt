@@ -5,7 +5,7 @@ INICIO
 
 3. Mientras contador < 101 entonces
 5.         mensaje <-- mensaje + "+1/" + contador
-9.          contador <-- contador + 1
+9.         contador <-- contador + 1
 
 10. FinMientras
 

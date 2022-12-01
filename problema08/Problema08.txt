@@ -1,0 +1,24 @@
+ INICIO
+
+ cantidad_metros, i[0 - n]
+ cantidad_yardas, i[0 - n]
+cantidad_pulgadas, i[0 - n]
+canidad_pies, i[0 - n]
+ numero, i[0 - n]
+contador, i[0 - n] <-- 1
+informe, x(300)[{a-z}, {A-Z}, {BS}] <--"Tabla de equivalencias \n"+ "Metros"+" "+"Yardas"+" "+"Pulgadas"+" "+"Pies"+"\n"
+
+<<"Ingrese la medida maxima en metros"
+ >>numero
+Mientras contador <= numero entonces
+        metros <-- contador
+        cantidad_cm, i[0 - n] <-- (cantidad_metros * 100)/1
+        cantidad_pulgadas <-- (cantidad_cm*1) / 2.54
+        cantidad_pies <-- (cantidad_pulgadas*1) / 12
+        cantidad_yardas <--  (cantidad_pies*1) / 3
+        informe <-- informe + metros + " " + cantidad_yardas + " " + cantidad_pulgadas + " " + cantidad_pies + "\n"
+        contador <-- contador + 1
+ FinMientras
+
+ << informe
+ FIN

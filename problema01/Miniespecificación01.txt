@@ -7,18 +7,18 @@ contador, i(0-n) <-- 0
 Mientras contador < 3 entonces 
           <<"Ingrese el tamaño del ángulo"
           >>angulo
-         contador <-- contador + 1
+          contador <-- contador + 1
           Si angulo == 90 entonces
-                     acumulador <-- acumulador + "El ángulo tiene un tamaño de " + angulo + "\t" + "por lo tanto es un ángulo recto" + "\n"
+                       acumulador <-- acumulador + "El ángulo tiene un tamaño de " + angulo + "\t" + "por lo tanto es un ángulo recto" + "\n"
           De lo contrario 
                        Si (angulo > 90 && angulo < 180) entonces
                                  acumulador <-- acumulador + "El ángulo tiene un tamaño de " + angulo + "\t" + "por lo tanto es un ángulo obtusángulo" + "\n"
                        De lo contrario 
-                                  Si angulo < 90 entonces
+                                 Si angulo < 90 entonces
                                              acmulador <-- acumulador + "El ángulo tiene un tamaño de " + angulo + "\t" + "por lo tanto es un ángulo acutángulo" + "\n"
-                                  FinSi
+                                 FinSi
                        FinSi
-             FinSi
+          FinSi
 FinMientras
 
 <<mensaje

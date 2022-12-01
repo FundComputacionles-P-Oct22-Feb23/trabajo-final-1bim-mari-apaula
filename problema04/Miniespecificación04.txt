@@ -27,19 +27,19 @@ De lo contrario
                                    <<"Ingrese un número"
                                    >> numero3 
                          FinSi
-              FinSi
+             FinSi
 FinSi
 
 Si numero1 >  numero2 entonces 
               numero_mayor <-- numero1
 De lo contrario 
-               numero_mayor <-- numero2
+              numero_mayor <-- numero2
 FinSi
 
 Si numero_mayor > numero3 entonces 
       numero_mayor = numero_mayor              
 De lo contrario 
-    numero_mayor <-- numero3
+      numero_mayor <-- numero3
 FinSi
 
 << " El numero mayor es " + numero_mayor

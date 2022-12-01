@@ -25,14 +25,14 @@ De lo contrario
                               descuento <-- 40
                               subtotal <-- precio_unitario *traje
                               total <-- (precio_unitario * descuento) / 100
-                    De lo contrario
+                     De lo contrario
                               Si traje > 3 entonces
                                        descuento <-- 50
-                                        subtotal <-- precio_unitario *traje
-                                        total <-- (precio_unitario * descuento) / 100
+                                       subtotal <-- precio_unitario *traje
+                                       total <-- (precio_unitario * descuento) / 100
                               FinSi
                      FinSi
-             Fin Si
+          Fin Si
 FinSi
 
 <<"-------------------------------------------------------------------------------------------------------"

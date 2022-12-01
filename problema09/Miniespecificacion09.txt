@@ -1,0 +1,20 @@
+INICIO
+once, i[0-n] <-- 0
+doce, i[0-n] <-- 0
+mensaje, x(300)[{a-z}, {A-Z}, {BS}] <-- "S1 = 12"
+contador, i(0-n) <--1
+
+Mientras contador <=7 entonces 
+          Si contador %2 != 0 entonces 
+                   once <-- once +11
+                   mensaje <-- menensaje + "-" + once
+          De lo contrario
+                   doce <-- doce + 12
+                   mensaje <-- mensaje + "+" + doce
+          FinSi
+          contador <-- concontador +1
+FinMientras
+
+<<mensaje
+
+FIN 

@@ -1,0 +1,29 @@
+INICIO
+numero, i[0-n] 
+suma, i[0-n] <-- 0
+contador, i(0-n) <--0
+bandera, l <-- true
+salir, i[0-n]
+media, i[0-n]
+indorme, x(300)[{a-z}, {A-Z}, {BS}] <-- "La media es igual a "
+
+Mientras (bandera) entonces 
+          <<"Ingrese un número" 
+          >>numero
+                  
+          suma <-- suma + numero   
+          contador <-- concontador +1
+                
+          <<"Ingrese 1 para salir" 
+          >>salir
+          
+           Si salir == 1 entonces 
+                   bandera <-- false
+          FinSi
+FinMientras
+
+media <-- suma/contador
+informe <-- informe + media
+<<informe
+
+FIN 
